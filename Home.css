@@ -1,9 +1,12 @@
 #qui
 {
     background-color: rgba(201, 154, 0, 0.89);
-    height: 500px;
+    height: fit-content;
     width: auto;
     border-color: black;
+    padding: 10px 10px 10px 10px;
+    margin: 10px auto 10px auto;
+    border-radius: 5px;
 }
 
 #moi
@@ -37,9 +40,10 @@ ul
     background-color: rgba(236, 56, 56, 0.795);
 }
 
-img
+#boite1
 {
-    float: left;
+    display: flex;
+    justify-content: space-around;
 }
 
 p

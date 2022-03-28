@@ -3,7 +3,7 @@ nav
     display: flex;
     justify-content: space-around;
     background-image:
-    linear-gradient(to left, rgba(107, 107, 96, 0.5), rgba(14, 14, 20, 0.5));
+    linear-gradient(to top, rgba(80, 74, 63, 0.801), rgba(235, 229, 210, 0.753));
     height: 100px;
     align-items: center;
 }
@@ -52,4 +52,9 @@ a:visited
 p
 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body
+{
+    background-color: rgba(115, 68, 226, 0.562);
 }
