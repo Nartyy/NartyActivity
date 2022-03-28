@@ -1,0 +1,48 @@
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgrey;
+    height: 100px;
+    align-items: center;
+}
+
+.nav
+{
+    width: 300px;
+    height: 75px;
+    background-color: rgba(127, 255, 212, 0.199);
+    border-radius: 10px;
+}
+
+h1
+{
+    text-align: center;
+    min-width: 50px;
+    max-width: 200px;
+    margin: 7px auto 0 auto;
+    padding: 10px 10px 10px 10px;
+    background-color: darkorange;
+    border-radius: 120px;
+    font-size: 30px;
+}
+
+h1:hover
+{
+    background-color: rgb(168, 67, 0);
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: brown;
+}
+
+a:visited
+{
+    color: black;
+}
