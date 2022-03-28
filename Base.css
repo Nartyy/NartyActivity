@@ -2,7 +2,8 @@ nav
 {
     display: flex;
     justify-content: space-around;
-    background-color: darkgrey;
+    background-image:
+    linear-gradient(to left, rgba(107, 107, 96, 0.5), rgba(14, 14, 20, 0.5));
     height: 100px;
     align-items: center;
 }
@@ -22,7 +23,8 @@ h1
     max-width: 200px;
     margin: 7px auto 0 auto;
     padding: 10px 10px 10px 10px;
-    background-color: darkorange;
+    background-image:
+    linear-gradient(to top, rgba(228, 151, 9, 0.801), rgba(216, 169, 16, 0.753));
     border-radius: 120px;
     font-size: 30px;
 }
