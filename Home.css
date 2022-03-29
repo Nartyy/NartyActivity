@@ -1,12 +1,12 @@
 #qui
 {
-    background-color: rgba(201, 154, 0, 0.89);
+    background-color: rgba(255, 255, 255, 0.89);
     height: fit-content;
     width: auto;
     border-color: black;
     padding: 10px 10px 10px 10px;
     margin: 10px auto 10px auto;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
 #moi
@@ -49,4 +49,44 @@ ul
 p
 {
     font-size: 20px;
+}
+
+#vi
+{
+    text-align: center;
+}
+
+#presentation
+{
+    border: 3px rgb(255, 145, 0) solid ;
+    padding: 0px 0px 0px 0px;
+    background-color: rgb(39, 39, 39);
+    border-radius: 5px;
+}
+
+#cont
+{
+    min-width: 1000px;
+    max-width: 800px;
+    width: auto;
+    height: fit-content;
+    background: linear-gradient(to left, rgb(219, 219, 219), rgb(197, 197, 197));
+    padding-left: 5px;
+    padding-bottom: 10px;
+    margin: auto auto 0px auto;
+    border-radius: 6px;
+}
+
+#contact
+{
+    height: 500px;
+    display: flex;
+}
+
+.overf
+{
+    text-align: center;
+    width: auto;
+    margin: auto;
+    font-size: 15px;
 }

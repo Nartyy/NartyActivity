@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'kaushan';
+    src: url('font/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('font/kaushanscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'history';
+    src: url('font/historybegindemoregular-webfont.woff2') format('woff2'),
+         url('font/historybegindemoregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.jeux
+{
+    background-color: aliceblue;
+    margin: 10px 10px 10px 10px;
+    border-radius: 30px;
+    height: 300px;
+    width: auto;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pP
+{
+    height: 300px ;
+    width: 300px;
+    background-color: rgb(87, 87, 87);
+}
+
+.title
+{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px 5px 5px 5px;
+}
+
+.text
+{
+    display: flex;
+    flex-direction: column;
+    align-content:flex-end;
+    height: 220px;
+    /*background-color: blueviolet;*/
+}
+
+.infos
+{
+    height: 300px;
+    width: 600px;
+    background-color: rgba(87, 174, 255, 0.37);
+}

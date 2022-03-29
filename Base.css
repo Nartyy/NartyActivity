@@ -37,6 +37,7 @@ h1:hover
 a
 {
     text-decoration: none;
+    color: black;
 }
 
 a:hover
@@ -62,5 +63,5 @@ p
 
 body
 {
-    background-color: rgb(226, 226, 226);
+    background: linear-gradient(to left, rgb(0, 102, 255), rgb(193, 99, 248));
 }
